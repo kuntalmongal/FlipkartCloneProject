@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2455f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    
+    display: inline-block;
+    width: 213vh;
+}
+
+.logo .search {
+
+    display: flex;
+    margin: 0 81px;
+    height: 33px;
+    border-radius: 2px;
+    text-align: center;
+   overflow: hidden;
+   width: 30vw;
+}
+
+.logo .search input {
+
+    width: 500px;
+    height: 30px;
+    margin: 0px 0;
+    border: 2px solid black;
+}
+
+
+.logo ul {
+    display: flex;
+}
+
+nav .logo ul li {
+    list-style: none;
+    justify-self: flex-start;
+    padding: 12px;
+
+}
+
+.logo ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo ul li a:hover {
+    color: rgb(153, 153, 158);
+    font-style: bold;
+}
+
+header {
+
+    background: var(--main-bg-color);
+    height: 7vh;
+
+}
+
+footer {
+
+    height: 7vh;
+    background: var(--main-bg-color);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-color: white;
+    min-height: 55vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 27px;
+    padding: 15px 25px;
+
+}
+
+.btn {
+    background: var(--main-bg-color);
+    padding: 5px 10px;
+    margin: 0 3px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+}
+
+.slider img {
+    margin: auto;
+    width: 85vw;
+    height: 61vh;
+    padding: 10px 99px;
+}
+
+.cart {
+    margin: -28px 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.my-2{
+    margin: 26px -21px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.my-1{
+    margin: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-item img{
+    margin-top: -22px;
+    margin-left: 7px;
+    margin-right: 27px;
+  }
+
+.slider{
+    overflow: hidden ;
+}
+.search input{
+    width: 30vw;
+}
